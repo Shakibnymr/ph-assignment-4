@@ -1,12 +1,11 @@
-function cubeNumber (number) {
-    if (typeof number != "number"){
-        console.log('please, put a number first.')
-    }
-    const result = Math.pow(number,3);
-    
-    return result;
+function cubeNumber(number) {
+  if (typeof number != "number") {
+    return "please, put a number first.";
+  }
+  const result = Math.pow(number, 3);
 
+  return result;
 }
-const num = 4;
+const num = 'three';
 const output = cubeNumber(num);
 console.log(output);
