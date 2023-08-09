@@ -14,5 +14,5 @@ function sortMaker(arr) {
     }
   }
 }
-const array = [4, -2];
+const array = [-4, -2];
 const output = sortMaker(array);
