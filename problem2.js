@@ -1,5 +1,5 @@
 function matchFinder(string1, string2) {
-  if (typeof str1 != "string" || typeof str2 != "string") {
+  if (typeof string1 != "string" || typeof string2 != "string") {
     return "put string in both parameters.";
   }
   if (string1.includes(string2)) {
@@ -8,7 +8,7 @@ function matchFinder(string1, string2) {
     return false;
   }
 }
-const str1 = "Peter Parker";
-const str2 = 4;
+const str1 = "John Doe";
+const str2 = 'ohn';
 const output = matchFinder(str1, str2);
 console.log(output);

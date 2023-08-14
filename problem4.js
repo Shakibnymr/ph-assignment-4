@@ -5,13 +5,13 @@ function findAddress(obj) {
     const street = obj.street || "__";
     const house = obj.house || "__";
     const society = obj.society || "__";
-   console.log (street, house, society);
+   return street + ',' + house + ',' + society; 
   }
 }
 
 var address = 
 {  street: 10,
-  // house: "15A",
+  house: "15A",
   society: "Earth Perfect"}
 ;
- findAddress(address);
+ console.log(findAddress(address));
